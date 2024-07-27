@@ -10,7 +10,7 @@ resource-pack:
       enabled: false
     self-host:
       enabled: true
-      server-ip: 161.34.0.54
+      server-ip: 127.0.0.1
       pack-port: 8163
     external-host:
       enabled: false
