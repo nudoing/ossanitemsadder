@@ -3,10 +3,12 @@ info:
 loots:
   blocks:
     grass:
-      type: GRASS
+      enabled: true
+      type: SHORT_GRASS
       items:
-        tomato_seeds:
+        item_1:
           item: iasurvival:tomato_seeds
           min_amount: 1
           max_amount: 2
           chance: 5
+

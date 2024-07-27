@@ -22,4 +22,4 @@ items:
             item: iasurvival:tomato_seeds
             min_amount: 1
             max_amount: 2
-            chance: 100
+            chance: 50
