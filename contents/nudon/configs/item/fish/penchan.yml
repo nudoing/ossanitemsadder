@@ -1,0 +1,26 @@
+info:
+  namespace: nudon
+items:
+  penchan:
+    enabled: true
+    display_name: "ペンちゃん"
+    resource:
+      material: COOKED_CHICKEN
+      generate: true
+      textures:
+        - fish/penchan
+    events:
+      eat:
+        feed:
+          amount: 4
+          saturation: 0.4
+
+loots:
+  fishing:
+    penchan:
+      items:
+        item_1:
+          item: nudon:penchan
+          max_amount: 1
+          min_amount: 1
+          chance: 5

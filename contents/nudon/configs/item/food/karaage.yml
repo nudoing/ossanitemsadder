@@ -1,0 +1,43 @@
+info:
+  namespace: nudon
+
+items:
+  karaage:
+    enabled: true
+    display_name: "からあげ"
+    lore:
+      - "&7サクサクです"
+    resource:
+      material: COOKED_CHICKEN
+      generate: true
+      textures:
+        - food/karaage
+    events:
+      eat:
+        feed:
+          amount: 10
+          saturation: 15
+
+
+recipes:
+  cooking:
+    karaage:
+      enabled: true
+      machines:
+        - FURNACE
+        - SMOKER
+      ingredient:
+        item: COOKED_CHICKEN
+      result:
+        item: "nudon:karaage"
+        amount: 1
+    karaage2:
+      enabled: true
+      machines:
+        - FURNACE
+        - SMOKER
+      ingredient:
+        item: nudon:pentyan
+      result:
+        item: nudon:karaage
+        amount: 1

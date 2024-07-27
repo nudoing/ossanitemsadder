@@ -1,0 +1,26 @@
+info:
+  namespace: nudon
+categories:
+  food:
+    enabled: true
+    skip_if_already: false
+    icon: nudon:raamen
+    name: たべもの
+    items:
+      - nudon:kakigoori
+      - nudon:karaage
+      - nudon:pafe
+      - nudon:raamen
+  fish:
+    enabled: true
+    skip_if_already: false
+    icon: nudon:ahiruchan
+    name: さかな
+    items:
+      - nudon:ahiruchan
+      - nudon:penchan
+  hat:
+    name: 帽子
+    icon: nudon:sakanaatama
+    items:
+      - nudon:sakanaatama

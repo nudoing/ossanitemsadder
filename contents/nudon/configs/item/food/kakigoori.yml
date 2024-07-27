@@ -1,0 +1,33 @@
+info:
+  namespace: nudon
+
+items:
+  kakigoori:
+    enabled: true
+    display_name: "かき氷"
+    lore:
+      - "&7早く食べすぎないで！"
+    resource:
+      material: MELON_SLICE
+      generate: true
+      textures:
+        - food/kakigoori
+    nbt: '{components:{food:{nutrition:5,saturation:2,eat_seconds:7}}}'
+    events:
+      eat:
+        execute_commands:
+          cmd1:
+            command: 'execute at {player} run setblock ~ ~ ~ minecraft:powder_snow keep'
+            as_console: true
+
+recipes:
+  crafting_table:
+    kakigoori:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: SNOWBALL
+        B: SWEET_BERRIES
+      result:
+        item: nudon:kakigoori
+        amount: 1

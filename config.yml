@@ -78,8 +78,8 @@ resource-pack:
       allow_non_player: true
     other: true
 config_files:
-  lang: en
-  dictionaries-lang: en
+  lang: ja
+  dictionaries-lang: ja
   force-sync-loading: false
 blocks:
   light-api: true

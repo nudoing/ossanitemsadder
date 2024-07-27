@@ -1,0 +1,28 @@
+info:
+  namespace: nudon
+
+items:
+  raamen:
+    enabled: true
+    display_name: "ラーメン"
+    lore:
+      - "<gray>醤油味だ！</gray>"
+    resource:
+      material: MUSHROOM_STEW
+      generate: true
+      textures:
+        - food/raamen
+
+
+recipes:
+  crafting_table:
+    raamen:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: BOWL
+        B: WHEAT
+        C: EGG
+      result:
+        item: nudon:raamen
+        amount: 1

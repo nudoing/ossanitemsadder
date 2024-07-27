@@ -1,0 +1,29 @@
+info:
+  namespace: nudon
+
+items:
+  sakanaatama:
+    enabled: true
+    display_name: "魚頭"
+    lore:
+      - "&7装備品です"
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: hat/sakanaatama
+    behaviours:
+      hat: true
+
+recipes:
+  crafting_table:
+    sakanaatama:
+      enabled: true
+      shapeless: false
+      pattern:
+        - SSS
+        - SXS
+      ingredients:
+        S: COD
+      result:
+        item: nudon:sakanaatama
+        amount: 1

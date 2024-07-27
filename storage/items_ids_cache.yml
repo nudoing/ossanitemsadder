@@ -13,3 +13,30 @@ PLAYER_HEAD:
   __manually_handled:_iainternal__player_pleg_left_1: 10003
   __manually_handled:_iainternal__player_pleg_right_5: 10004
   __manually_handled:_iainternal__player_parm_right_4: 10005
+COOKED_CHICKEN:
+  nudon:karaage: 10000
+  nudon:raamen: 10001
+  nudon:pentyan: 10002
+  nudon:penchan: 10003
+GLISTERING_MELON_SLICE:
+  nudon:pafe: 10000
+  nudon:kakigoori: 10001
+FEATHER:
+  nudon:sakanaatama: 10000
+MELON_SLICE:
+  nudon:kakigoori: 10000
+MUSHROOM_STEW:
+  nudon:raamen: 10000
+COOKED_PORKCHOP:
+  nudon:tuna: 10000
+  nudon:pentyan: 10001
+WARPED_FUNGUS_ON_A_STICK:
+  nudon:ahiruchan: 10000
+GOAT_HORN:
+  nudon:ahiruchan: 10000
+STICK:
+  nudon:ahiruchan: 10000
+SHIELD:
+  nudon:ahiruchan: 10000
+WOODEN_SWORD:
+  nudon:ahiruchan: 10000

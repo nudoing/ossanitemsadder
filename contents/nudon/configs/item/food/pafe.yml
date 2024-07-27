@@ -1,0 +1,29 @@
+info:
+  namespace: nudon
+
+items:
+  pafe:
+    enabled: true
+    display_name: "パフェ"
+    lore:
+      - "<gray>パ↑ッフェ</gray>"
+    resource:
+      material: GLISTERING_MELON_SLICE
+      generate: true
+      textures:
+        - food/pafe
+    nbt: '{components:{food:{nutrition:5,saturation:2,eat_seconds:7}}}'
+
+
+recipes:
+  crafting_table:
+    pafe:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: SNOWBALL
+        B: SWEET_BERRIES
+        C: MILK_BUCKET
+      result:
+        item: nudon:pafe
+        amount: 1

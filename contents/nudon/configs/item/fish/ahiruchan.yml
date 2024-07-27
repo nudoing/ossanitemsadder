@@ -1,0 +1,34 @@
+info:
+  namespace: nudon
+items:
+  ahiruchan:
+    enabled: true
+    display_name: "アヒルちゃん"
+    lore:
+      - "&7振ると鳴きます"
+    resource:
+      material: STICK
+      generate: true
+      textures:
+        - fish/ahiruchan
+    events:
+      interact_mainhand:
+        left:
+          play_sound:
+            name: entity.chicken.death
+            volume: 1
+            pitch: 1
+          damage_near_entities:
+            damage: 1
+            radius: 3
+
+
+loots:
+  fishing:
+    ahiruchan:
+      items:
+        item_1:
+          item: nudon:ahiruchan
+          max_amount: 1
+          min_amount: 1
+          chance: 5
