@@ -4,9 +4,17 @@ recipes:
   crafting_table:
     french_fries:
       pattern:
+        - PXX
+        - PXX
+        - PXX
+      pattern2:
         - XPX
         - XPX
         - XPX
+      pattern3:
+        - XXP
+        - XXP
+        - XXP
       ingredients:
         P: BAKED_POTATO
       result:
@@ -14,9 +22,17 @@ recipes:
         amount: 3
     chips:
       pattern:
+        - PPP
+        - XXX
+        - XXX
+      pattern2:
         - XXX
         - PPP
         - XXX
+      pattern3:
+        - XXX
+        - XXX
+        - PPP
       ingredients:
         P: BAKED_POTATO
       result:
