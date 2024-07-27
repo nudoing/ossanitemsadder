@@ -1,4 +1,4 @@
 ItemsAdder.code-workspace
 
-output
-storage
+output/
+storage/
