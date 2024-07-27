@@ -4,6 +4,8 @@ categories:
   food:
     enabled: true
     skip_if_already: false
+    icon: nudon:raamen
+    name: たべもの
     items:
       - iasurvival:banana
       - iasurvival:tomato
