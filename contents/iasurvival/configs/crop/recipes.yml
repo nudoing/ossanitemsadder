@@ -1,0 +1,15 @@
+info:
+  namespace: iasurvival
+recipes:
+  crafting_table:
+    tomato_seeds:
+      enabled: true
+      pattern:
+        - XXX
+        - XOX
+        - XXX
+      ingredients:
+        O: iasurvival:tomato
+      result:
+        item: iasurvival:tomato_seeds
+        amount: 2

@@ -1,0 +1,12 @@
+info:
+  namespace: iasurvival
+loots:
+  blocks:
+    grass:
+      type: GRASS
+      items:
+        tomato_seeds:
+          item: iasurvival:tomato_seeds
+          min_amount: 1
+          max_amount: 2
+          chance: 5

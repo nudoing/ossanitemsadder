@@ -1,0 +1,25 @@
+info:
+  namespace: iasurvival
+items:
+  tomato_seeds:
+    enabled: true
+    display_name: トマトの種
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+        - crop/tomato_seeds
+    specific_properties:
+      seed:
+        crop_block: SWEET_BERRY_BUSH
+        results:
+          result_1:
+            item: iasurvival:tomato
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+          result_2:
+            item: iasurvival:tomato_seeds
+            min_amount: 1
+            max_amount: 2
+            chance: 100
