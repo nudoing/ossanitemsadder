@@ -1,0 +1,22 @@
+info:
+  namespace: iasurvival
+recipes:
+  crafting_table:
+    french_fries:
+      pattern:
+        - P
+        - P
+        - P
+      ingredients:
+        P: BAKED_POTATO
+      result:
+        item: iasurvival:french_fries
+        amount: 3
+    chips:
+      pattern:
+        - PPP
+      ingredients:
+        P: BAKED_POTATO
+      result:
+        item: iasurvival:chips
+        amount: 3

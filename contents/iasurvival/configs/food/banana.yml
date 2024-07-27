@@ -1,0 +1,18 @@
+info:
+  namespace: iasurvival
+items:
+  banana:
+    enabled: true
+    display_name: バナナ
+    lore:
+      - "&7バナナ！？"
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - food/banana
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 1

@@ -1,0 +1,12 @@
+info:
+  namespace: iasurvival
+loots:
+  blocks:
+    jungle_leaves:
+      type: JUNGLE_LEAVES
+      items:
+        banana:
+          item: iasurvival:banana
+          min_amount: 1
+          max_amount: 2
+          chance: 10

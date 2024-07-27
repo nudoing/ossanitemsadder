@@ -1,0 +1,16 @@
+info:
+  namespace: iasurvival
+items:
+  tomato:
+    enabled: true
+    display_name: トマト
+    resource:
+      material: APPLE
+      generate: true
+      textures:
+        - food/tomato
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1.2
