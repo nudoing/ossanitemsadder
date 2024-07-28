@@ -12,6 +12,13 @@ items:
       generate: true
       textures:
         - misc/ichimanen
+    events:
+      attack:
+        play_sound:
+          name: block.anvil.land
+          volume: 0.5
+          pitch: 1
+
 
 recipes:
   crafting_table:
