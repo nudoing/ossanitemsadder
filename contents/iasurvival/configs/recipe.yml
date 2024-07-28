@@ -38,3 +38,24 @@ recipes:
       result:
         item: iasurvival:chips
         amount: 3
+    sliced_cheese:
+      shapeless: true
+      enabled: true
+      ingredients:
+        A: MILK_BUCKET
+      result:
+        item: sliced_cheese
+        amount: 4
+    pizza:
+      pattern:
+        - CCC
+        - TTT
+        - PPP
+      ingredients:
+        P: BREAD
+        T: tomato
+        C: sliced_cheese
+      result:
+        item: pizza
+        amount: 8
+
