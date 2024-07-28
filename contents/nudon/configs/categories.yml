@@ -25,3 +25,10 @@ categories:
     icon: nudon:sakanaatama
     items:
       - nudon:sakanaatama
+  misc:
+    enabled: 
+    skip_if_already: false
+    icon: nudon:ichimanen
+    name: そのほか
+    items:
+      - nudon:ichimanen

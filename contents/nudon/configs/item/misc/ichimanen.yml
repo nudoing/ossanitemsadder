@@ -1,0 +1,25 @@
+info:
+  namespace: nudon
+
+items:
+  ichimanen:
+    enabled: true
+    display_name: "一万円"
+    lore:
+      - "&7金だ！"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - misc/ichimanen
+
+recipes:
+  crafting_table:
+    ichimanen:
+      enabled: true
+      shapeless: true
+      ingredients:
+        G : GOLD_INGOT
+      result:
+        item: ichimanen
+        amount: 1
