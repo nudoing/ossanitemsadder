@@ -1,0 +1,67 @@
+info:
+  namespace: nudon
+
+items:
+  sabaicon:
+    display_name: 鯖アイコン
+    resource:
+      material: POTATO
+      generate: true
+      textures:
+        - crop/sabaicon
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 5
+      interact:
+        right:
+          set_block:
+            block: sabaicon_sapling
+            target: RELATIVE
+            decrement_amount: true
+        right_shift:
+          set_block:
+            block: sabaicon_sapling
+            target: RELATIVE
+            decrement_amount: true
+
+  sabaicon_sapling:
+    display_name: ""
+    resource:
+      material: PAPER
+      generate: false
+      model_path: crop/sabaicon_sapling
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+    events:
+      placed_block:
+        break:
+          drop_item:
+            item: sabaicon
+            min_amount: 1
+            max_amount: 1
+            chance: 100
+
+recipes:
+  crafting_table:
+    sabaicon:
+      enabled: true
+      shapeless: false
+      pattern:
+        - XSX
+        - SSS
+        - SSS
+      ingredients:
+        S: COBBLESTONE
+      result:
+        item: sabaicon
+        amount: 1

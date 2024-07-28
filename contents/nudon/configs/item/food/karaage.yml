@@ -41,3 +41,13 @@ recipes:
       result:
         item: nudon:karaage
         amount: 1
+    karaage3:
+      enabled: true
+      machines:
+        - FURNACE
+        - SMOKER
+      ingredient:
+        item: nudon:sabaicon
+      result:
+        item: nudon:karaage
+        amount: 1
