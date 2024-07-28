@@ -11,6 +11,7 @@ categories:
       - nudon:karaage
       - nudon:pafe
       - nudon:raamen
+      - nudon:sabaicon
   fish:
     enabled: true
     skip_if_already: false
