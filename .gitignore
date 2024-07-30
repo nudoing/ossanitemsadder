@@ -1,4 +1,5 @@
 ItemsAdder.code-workspace
 output/
-storage/
+storage/*
+!storage/font_images_unicode_cache.yml
 config.yml

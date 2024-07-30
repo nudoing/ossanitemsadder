@@ -26,7 +26,7 @@ categories:
     items:
       - nudon:sakanaatama
   misc:
-    enabled: 
+    enabled: true
     skip_if_already: false
     icon: nudon:akatan
     name: そのほか

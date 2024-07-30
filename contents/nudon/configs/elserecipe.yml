@@ -1,0 +1,13 @@
+info:
+  namespace: nudon
+
+recipes:
+  crafting_table:
+    change_me:
+      enabled: true
+      shapeless: true
+      ingredients:
+        T: iasurvival:tomato
+      result:
+        item: RED_DYE
+        amount: 1
