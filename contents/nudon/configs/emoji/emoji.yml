@@ -1,0 +1,13 @@
+info:
+  namespace: "nudon"
+font_images:
+  akamana:
+    show_in_gui: true
+    path: "card/akamana"
+    scale_ratio: 9
+    y_position: 8
+  tap:
+    show_in_gui: true
+    path: "card/tap"
+    scale_ratio: 9
+    y_position: 8

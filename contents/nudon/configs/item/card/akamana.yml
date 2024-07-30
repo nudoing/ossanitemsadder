@@ -1,0 +1,16 @@
+info:
+  namespace: nudon
+
+items:
+  akamana:
+    enabled: true
+    display_name: "赤マナ"
+    resource:
+      material: COAL
+      generate: true
+      textures:
+        - card/akamana
+    behaviours:
+      fuel:
+        burn_ticks: 3200
+        enabled: true

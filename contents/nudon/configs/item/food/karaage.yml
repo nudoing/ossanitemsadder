@@ -37,7 +37,7 @@ recipes:
         - FURNACE
         - SMOKER
       ingredient:
-        item: nudon:pentyan
+        item: nudon:penchan
       result:
         item: nudon:karaage
         amount: 1

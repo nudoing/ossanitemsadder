@@ -1,0 +1,18 @@
+info:
+  namespace: nudon
+
+items:
+  taped_mountain:
+    enabled: true
+    display_name: "山"
+    lore:
+      - "<b><gray>土地</gray></b>"
+      - "<b><gray>: あなたのインベントリにを加える。</gray></b>"
+    resource:
+      material: STICK
+      generate: false
+      model_path: card/taped_mountain
+    behaviours:
+      fuel:
+        burn_ticks: 200
+        enabled: true

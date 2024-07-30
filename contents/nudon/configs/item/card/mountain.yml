@@ -1,0 +1,41 @@
+info:
+  namespace: nudon
+
+items:
+  mountain:
+    enabled: true
+    display_name: "山"
+    lore:
+      - "<b><gray>土地</gray></b>"
+      - "<b><gray>: あなたのインベントリにを加える。</gray></b>"
+    resource:
+      material: STICK
+      generate: false
+      model_path: card/mountain
+    events:
+      interact:
+        right:
+          decrement_amount:
+            amount: 1
+          give_item:
+            item: taped_mountain
+          give_item2:
+            item: akamana
+    behaviours:
+      fuel:
+        burn_ticks: 200
+        enabled: true
+
+recipes:
+  cooking:
+    mountain:
+      enabled: true
+      machines:
+        - BLAST_FURNACE
+        - FURNACE
+        - SMOKER
+      ingredient:
+        item: taped_mountain
+      result:
+        item: mountain
+        amount: 1

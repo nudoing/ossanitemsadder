@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "nudon:card/inazuma",
+		"1": "nudon:card/magic",
+		"particle": "nudon:card/inazuma"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 7],
+			"to": [13, 14, 7],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 7, 7]},
+			"faces": {
+				"north": {"uv": [2.25, 0, 13.75, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 3.5], "texture": "#missing"},
+				"south": {"uv": [2.25, 0, 13.75, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 3.5], "texture": "#missing"},
+				"up": {"uv": [0, 0, 2.5, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 2.5, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 7, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 7, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-7, 0, 0],
+			"translation": [3, 5.5, -0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7, 0, 0],
+			"translation": [3, 5.5, -0.75]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 14.5, -5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

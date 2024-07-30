@@ -1,0 +1,19 @@
+info:
+  namespace: nudon
+
+items:
+  inazuma:
+    enabled: true
+    display_name: "稲妻 :akamana:"
+    lore:
+      - "<b><gray>インスタント</gray></b>"
+      - "&7ワールド上のブロックのうち1つを対象とする。"
+      - "&7稲妻はそれにlightning_boltを与える。"
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: card/inazuma
+    behaviours:
+      fuel:
+        burn_ticks: 200
+        enabled: true

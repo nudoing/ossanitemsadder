@@ -28,7 +28,8 @@ categories:
   misc:
     enabled: 
     skip_if_already: false
-    icon: nudon:ichimanen
+    icon: nudon:akatan
     name: そのほか
     items:
       - nudon:ichimanen
+      - nudon:akatan

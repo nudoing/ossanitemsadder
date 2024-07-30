@@ -1,0 +1,27 @@
+info:
+  namespace: nudon
+
+items:
+  akatan:
+    enabled: true
+    display_name: "赤単"
+    resource:
+      material: STICK
+      generate: false
+      model_path: card/akatan
+    behaviours:
+      fuel:
+        burn_ticks: 200
+        enabled: true
+
+recipes:
+  crafting_table:
+    akatan:
+      enabled: true
+      shapeless: true
+      ingredients:
+        P: PAPER
+        R: RED_DYE
+      result:
+        item: akatan
+        amount: 1
