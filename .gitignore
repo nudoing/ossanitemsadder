@@ -1,5 +1,5 @@
 ItemsAdder.code-workspace
 output/
-storage/*
-!storage/font_images_unicode_cache.yml
+storage/cache
+storage/players
 config.yml
