@@ -1,0 +1,30 @@
+info:
+  namespace: nudon
+
+items:
+  saboten_wagiri:
+    enabled: true
+    display_name: "サボテンの輪切り"
+    lore:
+      - "&7食べれないこともないかもしれない"
+    resource:
+      material: COOKED_CHICKEN
+      generate: true
+      textures:
+        - food/saboten_wagiri
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+
+recipes:
+  crafting_table:
+    saboten_wagiri:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: CACTUS
+      result:
+        item: nudon:saboten_wagiri
+        amount: 2

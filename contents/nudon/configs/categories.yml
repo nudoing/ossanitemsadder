@@ -13,6 +13,7 @@ categories:
       - nudon:raamen
       - nudon:sabaicon
       - nudon:tamanegi
+      - nudon:saboten_wagiri
   fish:
     enabled: true
     skip_if_already: false
