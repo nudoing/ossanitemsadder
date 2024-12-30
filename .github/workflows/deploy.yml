@@ -14,12 +14,11 @@ jobs:
             uses: shimataro/ssh-key-action@v2
             with:
               key: ${{ secrets.SSH_PRIVATE_KEY }}
-              name: id_rsa
               known_hosts: ${{ secrets.KNOWN_HOSTS }}
               config: |
                 Host server
                   HostName ${{ secrets.SSH_HOST }}
                   User ${{ secrets.SSH_USER }}
-                  IdentityFile ~/.ssh/id_rsa
+                  IdentityFile ~/.ssh/authorized_keys
           - name: test
             run: ssh server "echo 'hogehoge'"
