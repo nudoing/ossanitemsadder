@@ -63,6 +63,8 @@ settings:
         item: FISHING_ROD
       vehicle_fuel:
         item: COAL
+      blocks_populators:
+        item: CHEST
 categories:
   all:
     enabled: true

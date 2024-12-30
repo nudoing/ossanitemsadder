@@ -1,5 +1,4 @@
 ItemsAdder.code-workspace
 output/
-storage/cache
-storage/players
+storage/
 config.yml

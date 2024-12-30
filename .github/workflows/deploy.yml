@@ -8,22 +8,18 @@ on:
 jobs:
     deploy:
         runs-on: ubuntu-latest
+
         steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
-
-            - name: Set up SSH
-              uses: webfactory/ssh-agent@v0.5.3
-              with:
-                ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-
-            - name: Run SSH command
-              env:
-                SSH_USER: ${{ secrets.SSH_USER }}
-                SSH_HOST: ${{ secrets.SSH_HOST }}
-                SSH_POOTO: ${{ secrets.SSH_POOTO }}
-              run: |
-                ssh -p $SSH_POOTO -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST 'bash -s' <<'EOF'
-                ./daunrodo.sh
-                EOF
+          - name: Install SSH key
+            uses: shimataro/ssh-key-action@v2
+            with:
+              key: ${{ secrets.SSH_PRIVATE_KEY }}
+              name: id_rsa
+              known_hosts: ${{ secrets.KNOWN_HOSTS }}
+              config: |
+                Host server
+                  HostName ${{ secrets.SSH_HOST }}
+                  User ${{ secrets.SSH_USER }}
+                  IdentityFile ~/.ssh/id_rsa
+          - name: test
+            run: ssh server "echo 'hogehoge'"
