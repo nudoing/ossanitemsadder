@@ -21,4 +21,4 @@ jobs:
                   User ${{ secrets.SSH_USER }}
                   IdentityFile ~/.ssh/id_rsa
           - name: rsync over SSH
-            run: rsync -C --filter=":- .gitignore" -acvz --delete -n --exclude='.git' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/debian/ossan/plugins/ItemsAdder/
+            run: rsync -acvz --delete -n --include-from=include-list --exclude='*' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/debian/ossan/plugins/ItemsAdder/
