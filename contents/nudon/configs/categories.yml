@@ -12,6 +12,7 @@ categories:
       - nudon:pafe
       - nudon:raamen
       - nudon:sabaicon
+      - nudon:tamanegi
   fish:
     enabled: true
     skip_if_already: false

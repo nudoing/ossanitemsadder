@@ -1,0 +1,20 @@
+info:
+  namespace: nudon
+
+items:
+  karaage:
+    enabled: true
+    display_name: "たまねぎ"
+    lore:
+      - "&7目に染みる！"
+    resource:
+      material: COOKED_CHICKEN
+      generate: true
+      textures:
+        - food/tamanegi
+    events:
+      eat:
+        feed:
+          amount: 10
+          saturation: 15
+
