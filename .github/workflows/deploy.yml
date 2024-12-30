@@ -20,5 +20,5 @@ jobs:
                   HostName ${{ secrets.SSH_HOST }}
                   User ${{ secrets.SSH_USER }}
                   IdentityFile ~/.ssh/id_rsa
-          - name: test
-            run: ssh server "echo 'hogehoge'"
+          - name: trun deploy script
+            run: bash deploy.sh
