@@ -29,7 +29,7 @@ recipes:
       ingredient:
         item: COOKED_CHICKEN
       result:
-        item: "nudon:karaage"
+        item: nudon:karaage
         amount: 1
     karaage2:
       enabled: true
