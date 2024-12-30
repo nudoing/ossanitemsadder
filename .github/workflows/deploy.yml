@@ -19,6 +19,6 @@ jobs:
                 Host server
                   HostName ${{ secrets.SSH_HOST }}
                   User ${{ secrets.SSH_USER }}
-                  IdentityFile ~/.ssh/authorized_keys
+                  IdentityFile ~/.ssh/id_rsa
           - name: test
             run: ssh server "echo 'hogehoge'"
