@@ -2,3 +2,4 @@ ItemsAdder.code-workspace
 output/
 storage/
 config.yml
+secret.yml
