@@ -20,5 +20,5 @@ jobs:
                   HostName ${{ secrets.SSH_HOST }}
                   User ${{ secrets.SSH_USER }}
                   IdentityFile ~/.ssh/id_rsa
-          - name: trun deploy script
-            run: bash deploy.sh
+          - name: rsync over SSH
+            run: rsync -acvz --delete -n --exclude='.git' --exclude='.gitignore' ./output/ debian@160.248.185.84:/home/debian/ossan/plugins/ItemsAdder
