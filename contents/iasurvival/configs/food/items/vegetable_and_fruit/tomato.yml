@@ -3,13 +3,12 @@ info:
 items:
   tomato:
     enabled: true
-    display_name: display-name-tomato
-    permission: iasurvival.vegetable_and_fruit.tomato
+    display_name: トマト
     resource:
       material: APPLE
       generate: true
       textures:
-        - item/food/vegetable_and_fruit/tomato
+        - food/tomato
     events:
       eat:
         feed:

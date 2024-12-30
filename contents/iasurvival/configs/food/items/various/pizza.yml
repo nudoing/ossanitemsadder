@@ -3,15 +3,25 @@ info:
 items:
   pizza:
     enabled: true
-    display_name: display-name-pizza
-    permission: iasurvival.various.pizza
+    display_name: ピッツァ
+    lore:
+      - "<gray>カワバンガ！</gray>"
     resource:
       material: COOKED_PORKCHOP
       generate: true
       textures:
-        - item/food/various/pizza
+        - food/pizza
     events:
       eat:
         feed:
           amount: 7
           saturation: 4
+        potion_effect:
+          type: HEALTH_BOOST
+          amplifier: 0
+          duration: 1200
+        potion_effect2:
+          type: SLOWNESS
+          amplifier: 5
+          duration: 60
+

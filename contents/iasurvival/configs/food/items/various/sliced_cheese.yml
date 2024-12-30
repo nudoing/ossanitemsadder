@@ -3,13 +3,12 @@ info:
 items:
   sliced_cheese:
     enabled: true
-    display_name: display-name-sliced_cheese
-    permission: iasurvival.various.sliced_cheese
+    display_name: チーズ
     resource:
       material: COOKED_PORKCHOP
       generate: true
       textures:
-        - item/food/various/sliced_cheese
+        - food/sliced_cheese
     events:
       eat:
         feed:

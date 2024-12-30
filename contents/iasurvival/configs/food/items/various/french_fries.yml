@@ -3,13 +3,12 @@ info:
 items:
   french_fries:
     enabled: true
-    display_name: display-name-french_fries
-    permission: iasurvival.various.french_fries
+    display_name: ポテト
     resource:
       material: COOKED_PORKCHOP
       generate: true
       textures:
-        - item/food/various/french_fries
+        - food/french_fries
     events:
       eat:
         feed:

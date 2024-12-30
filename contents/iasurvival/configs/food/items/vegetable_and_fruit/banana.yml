@@ -3,13 +3,14 @@ info:
 items:
   banana:
     enabled: true
-    display_name: display-name-banana
-    permission: iasurvival.vegetable_and_fruit.banana
+    display_name: バナナ
+    lore:
+      - "&7バナナ！？"
     resource:
       material: APPLE
       generate: true
       textures:
-        - item/food/vegetable_and_fruit/banana
+        - food/banana
     events:
       eat:
         feed:
