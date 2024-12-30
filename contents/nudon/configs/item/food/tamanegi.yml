@@ -2,7 +2,7 @@ info:
   namespace: nudon
 
 items:
-  karaage:
+  tamanegi:
     enabled: true
     display_name: "たまねぎ"
     lore:
