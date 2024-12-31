@@ -16,6 +16,10 @@ items:
         feed:
           amount: 20
           saturation: 20
+        execute_commands:
+          cmd1:
+            command: 'execute at {player} run summon firework_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:2,explosions:[{shape:"large_ball",has_twinkle:0,has_trail:0,colors:[I;14602026,15435844],fade_colors:[I;14188952,15790320]}]}}}}'
+            as_console: true
     nbt: '{components:{consumable:{consume_seconds:30},food:{nutrition:5,saturation:2},equippable:{slot:head}}}'
 
 recipes:
