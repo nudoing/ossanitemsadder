@@ -11,6 +11,11 @@ items:
       material: PAPER
       generate: false
       model_path: food/tosikosisoba
+    events:
+      eat:
+        feed:
+          amount: 20
+          saturation: 20
     nbt: '{components:{consumable:{consume_seconds:30},food:{nutrition:5,saturation:2},equippable:{slot:head}}}'
 
 recipes:
