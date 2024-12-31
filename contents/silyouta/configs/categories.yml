@@ -1,5 +1,5 @@
 info:
-  namespace: iasurvival
+  namespace: silyouta
 categories:
   ryouri:
     enabled: true
@@ -7,15 +7,16 @@ categories:
     icon: nudon:raamen
     name: 料理
     items:
-      - iasurvival:french_fries
-      - iasurvival:chips
-      - iasurvival:sliced_cheese
-      - iasurvival:pizza
+      - silyouta:onigiri
+      - silyouta:onigiri_syake
+      - silyouta:onigiri_syake_jyou
+      - silyouta:onigiri_syake_tokujyou
   syokuzai:
     enabled: true
     skip_if_already: false
     icon: iasurvival:tomato
     name: 食材
     items:
-      - iasurvival:banana
-      - iasurvival:tomato
+      - silyouta:ikura
+      - silyouta:nori
+      - silyouta:sio

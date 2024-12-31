@@ -18,36 +18,35 @@ items:
           amount: 10
           saturation: 15
 
-
-recipes:
-  cooking:
-    karaage:
-      enabled: true
-      machines:
-        - FURNACE
-        - SMOKER
-      ingredient:
-        item: COOKED_CHICKEN
-      result:
-        item: nudon:karaage
-        amount: 1
-    karaage2:
-      enabled: true
-      machines:
-        - FURNACE
-        - SMOKER
-      ingredient:
-        item: nudon:penchan
-      result:
-        item: nudon:karaage
-        amount: 1
-    karaage3:
-      enabled: true
-      machines:
-        - FURNACE
-        - SMOKER
-      ingredient:
-        item: nudon:sabaicon
-      result:
-        item: nudon:karaage
-        amount: 1
+# recipes:
+#   cooking:
+#     karaage:
+#       enabled: true
+#       machines:
+#         - FURNACE
+#         - SMOKER
+#       ingredient:
+#         item: COOKED_CHICKEN
+#       result:
+#         item: "nudon:karaage"
+#         amount: 1
+#     karaage2:
+#       enabled: true
+#       machines:
+#         - FURNACE
+#         - SMOKER
+#       ingredient:
+#         item: nudon:penchan
+#       result:
+#         item: nudon:karaage
+#         amount: 1
+#     karaage3:
+#       enabled: true
+#       machines:
+#         - FURNACE
+#         - SMOKER
+#       ingredient:
+#         item: nudon:sabaicon
+#       result:
+#         item: nudon:karaage
+#         amount: 1

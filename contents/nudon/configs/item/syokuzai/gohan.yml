@@ -1,0 +1,19 @@
+info:
+  namespace: nudon
+
+items:
+  gohan:
+    enabled: true
+    display_name: "ごはん"
+    lore:
+      - "&7おめえの出番だ！"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/gohan
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1

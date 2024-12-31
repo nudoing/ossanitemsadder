@@ -1,0 +1,34 @@
+info:
+  namespace: silyouta
+recipes:
+  crafting_table:
+    nori:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: SEAGRASS
+        B: TORCH
+      result:
+        item: silyouta:nori
+        amount: 1
+
+
+# cooking:
+#   karaage:
+#     machines:
+#       - FURNACE
+#       - SMOKER
+#     ingredient:
+#       item: COOKED_CHICKEN
+#     result:
+#       item: nudon:karaage
+#       amount: 1
+#   gohan:
+#     machines:
+#       - FURNACE
+#       - SMOKER
+#     ingredient:
+#       item: WHEAT
+#     result:
+#       item: nudon:gohan
+#       amount: 1

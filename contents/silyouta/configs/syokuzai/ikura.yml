@@ -1,0 +1,12 @@
+info:
+  namespace: silyouta
+
+items:
+  ikura:
+    enabled: true
+    display_name: "いくら"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/ikura

@@ -1,0 +1,12 @@
+info:
+  namespace: silyouta
+
+items:
+  nori:
+    enabled: true
+    display_name: "海苔"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/nori

@@ -1,0 +1,87 @@
+info:
+  namespace: silyouta
+recipes:
+  crafting_table:
+    onigiri1:
+      enabled: true
+      shapeless: false
+      pattern:
+        - GSN
+      ingredients:
+        G: nudon:gohan
+        S: silyouta:sio
+        N: silyouta:nori
+      result:
+        item: silyouta:onigiri
+        amount: 1
+    onigiri2:
+      enabled: true
+      shapeless: false
+      pattern:
+        - XKW
+        - XSX
+        - KNK
+      ingredients:
+        K: WHEAT
+        N: silyouta:nori
+        S: silyouta:sio
+      result:
+        item: silyouta:onigiri
+        amount: 1
+    onigiri_syake:
+      enabled: true
+      shapeless: false
+      pattern:
+        - AB
+      ingredients:
+        A: silyouta:onigiri
+        B: COOKED_SALMON
+      result:
+        item: silyouta:onigiri_syake
+        amount: 1
+    onigiri_syake_jyou:
+      enabled: true
+      shapeless: false
+      pattern:
+        - CX
+        - AB
+      ingredients:
+        A: silyouta:onigiri
+        B: COOKED_SALMON
+        C: silyouta:ikura
+      result:
+        item: silyouta:onigiri_syake_jyou
+        amount: 1
+    onigiri_syake_tokujyou:
+      enabled: true
+      pattern:
+        - XIX
+        - SOS
+      ingredients:
+        O: silyouta:onigiri
+        S: COOKED_SALMON
+        I: silyouta:ikura
+      result:
+        item: silyouta:onigiri_syake_tokujyou
+        amount: 1
+    sio:
+      enabled: true
+      shapeless: false
+      pattern:
+        - T
+      ingredients:
+        T: WATER_BUCKET
+      result:
+        item: silyouta:sio
+        amount: 8
+    ikura:
+      enabled: true
+      shapeless: false
+      pattern:
+        - S
+      ingredients:
+        S: SALMON
+      result:
+        item: silyouta:ikura
+        amount: 2
+

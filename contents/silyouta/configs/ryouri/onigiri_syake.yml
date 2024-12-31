@@ -1,0 +1,17 @@
+info:
+  namespace: silyouta
+
+items:
+  onigiri_syake:
+    enabled: true
+    display_name: "鮭おにぎり"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ryouri/onigiri_syake
+    events:
+      eat:
+        feed:
+          amount: 12
+          saturation: 12

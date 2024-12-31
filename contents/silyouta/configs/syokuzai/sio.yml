@@ -1,0 +1,12 @@
+info:
+  namespace: silyouta
+
+items:
+  sio:
+    enabled: true
+    display_name: "塩"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/sio

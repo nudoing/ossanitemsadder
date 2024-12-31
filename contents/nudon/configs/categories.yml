@@ -1,11 +1,11 @@
 info:
   namespace: nudon
 categories:
-  food:
+  ryouri:
     enabled: true
     skip_if_already: false
     icon: nudon:raamen
-    name: たべもの
+    name: 料理
     items:
       - nudon:kakigoori
       - nudon:karaage
@@ -15,6 +15,14 @@ categories:
       - nudon:tamanegi
       - nudon:saboten_wagiri
       - nudon:tosikosisoba
+  syokuzai:
+    enabled: true
+    skip_if_already: false
+    icon: iasurvival:tomato
+    name: 食材
+    items:
+      - nudon:gohan
+
   fish:
     enabled: true
     skip_if_already: false
