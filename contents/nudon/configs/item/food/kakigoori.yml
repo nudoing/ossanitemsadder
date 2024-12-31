@@ -12,7 +12,7 @@ items:
       generate: true
       textures:
         - food/kakigoori
-    nbt: '{components:{food:{nutrition:5,saturation:2,eat_seconds:7}}}'
+    nbt: '{components:{consumable:{consume_seconds:7},:food:{nutrition:5,saturation:2}}}'
     events:
       eat:
         execute_commands:

@@ -1,0 +1,30 @@
+info:
+  namespace: nudon
+
+items:
+  tosikosisoba:
+    enabled: true
+    display_name: "年越しそば"
+    lore:
+      - "&7ずるずるずる"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: food/tosikosisoba
+    nbt: '{components:{consumable:{consume_seconds:30},food:{nutrition:5,saturation:2},equippable:{slot:head}}}'
+
+recipes:
+  crafting_table:
+    tosikosisoba:
+      enabled: true
+      shapeless: false
+      pattern:
+        - S
+        - S
+        - Q
+      ingredients:
+        S: WHEAT
+        Q: BOWL
+      result:
+        item: nudon:tosikosisoba
+        amount: 1
