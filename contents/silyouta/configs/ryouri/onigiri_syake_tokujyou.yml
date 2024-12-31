@@ -10,8 +10,4 @@ items:
       generate: true
       textures:
         - ryouri/onigiri_syake_tokujyou
-    events:
-      eat:
-        feed:
-          amount: 20
-          saturation: 30
+    nbt: '{components:{consumable:{consume_seconds:2},food:{nutrition:20,saturation:30}}}'
