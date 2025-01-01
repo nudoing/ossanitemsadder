@@ -1,0 +1,12 @@
+info:
+  namespace: maguyome
+
+items:
+  syouyu:
+    enabled: true
+    display_name: "きなこ"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/kinako
