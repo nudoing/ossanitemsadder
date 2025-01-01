@@ -1,0 +1,11 @@
+info:
+  namespace: maguyome
+categories:
+  syokuzai:
+    enabled: true
+    skip_if_already: false
+    icon: iasurvival:tomato
+    name: 食材
+    items:
+      - maguyome:dashi
+      - maguyome:syouyu
