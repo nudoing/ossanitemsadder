@@ -2,7 +2,7 @@ info:
   namespace: maguyome
 
 items:
-  dashi:
+  syouyu:
     enabled: true
     display_name: "醤油"
     resource:
