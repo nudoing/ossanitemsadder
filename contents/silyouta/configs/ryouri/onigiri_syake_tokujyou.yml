@@ -6,8 +6,12 @@ items:
     enabled: true
     display_name: "鮭おにぎり(特上)"
     resource:
-      material: PAPER
+      material: COOKED_BEEF
       generate: true
       textures:
         - ryouri/onigiri_syake_tokujyou
-    nbt: '{components:{consumable:{consume_seconds:2},food:{nutrition:20,saturation:30}}}'
+    events:
+      eat:
+        feed:
+          amount: 20
+          saturation: 30

@@ -6,8 +6,12 @@ items:
     enabled: true
     display_name: "おにぎり"
     resource:
-      material: PAPER
+      material: COOKED_BEEF
       generate: true
       textures:
         - ryouri/onigiri
-    nbt: '{components:{consumable:{consume_seconds:2},food:{nutrition:8,saturation:8}}}'
+    events:
+      eat:
+        feed:
+          amount: 8
+          saturation: 8
