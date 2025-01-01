@@ -2,15 +2,6 @@ info:
   namespace: nudon
 recipes:
   crafting_table:
-    karaage:
-      enabled: true
-      shapeless: true
-      ingredients:
-        A: COOKED_CHICKEN
-        B: TORCH
-      result:
-        item: nudon:karaage
-        amount: 1
     gohan:
       enabled: true
       shapeless: true

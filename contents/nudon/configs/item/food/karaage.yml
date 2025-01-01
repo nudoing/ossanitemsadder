@@ -17,6 +17,17 @@ items:
         feed:
           amount: 10
           saturation: 15
+recipes:
+  crafting_table:
+    karaage:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: COOKED_CHICKEN
+        B: TORCH
+      result:
+        item: nudon:karaage
+        amount: 1
 
 # recipes:
 #   cooking:

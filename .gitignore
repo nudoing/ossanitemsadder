@@ -3,3 +3,4 @@ output/
 storage/
 config.yml
 secret.yml
+.vscode/
