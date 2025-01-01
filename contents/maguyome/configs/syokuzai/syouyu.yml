@@ -1,0 +1,12 @@
+info:
+  namespace: maguyome
+
+items:
+  dashi:
+    enabled: true
+    display_name: "醤油"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/syouyu

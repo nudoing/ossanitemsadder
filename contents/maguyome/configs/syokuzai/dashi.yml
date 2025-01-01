@@ -1,0 +1,15 @@
+info:
+  namespace: maguyome
+
+items:
+  dashi:
+    enabled: true
+    display_name: "だし"
+    lore:
+      - "&7こんぶだし"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - syokuzai/dashi
+
