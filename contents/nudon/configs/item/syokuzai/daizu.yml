@@ -1,0 +1,46 @@
+info:
+  namespace: nudon
+items:
+  daizu:
+    enabled: true
+    display_name: 大豆
+    resource:
+      material: SNOWBALL
+      generate: true
+      textures:
+        - syokuzai/daizu
+    nbt: '{components:{max_stack_size:99}}'
+
+  daizu_seeds:
+    enabled: true
+    display_name: 大豆(植えるやつ)
+    resource:
+      material: WHEAT_SEEDS
+      generate: true
+      textures:
+        - syokuzai/daizu
+    specific_properties:
+      seed:
+        crop_block: SWEET_BERRY_BUSH
+        results:
+          result_1:
+            item: nudon:daizu
+            min_amount: 10
+            max_amount: 20
+            chance: 100
+          result_2:
+            item: nudon:daizu_seeds
+            min_amount: 1
+            max_amount: 2
+            chance: 50
+loots:
+  blocks:
+    grass2:
+      enabled: true
+      type: SHORT_GRASS
+      items:
+        item_1:
+          item: nudon:daizu_seeds
+          min_amount: 1
+          max_amount: 2
+          chance: 5
