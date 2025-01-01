@@ -22,6 +22,7 @@ categories:
     name: 食材
     items:
       - nudon:gohan
+      - nudon:daizu
 
   fish:
     enabled: true
@@ -44,3 +45,10 @@ categories:
     items:
       - nudon:ichimanen
       - nudon:akatan
+  seed:
+    enabled: true
+    skip_if_already: false
+    icon: nudon:daizu_seeds
+    name: 種や苗
+    items:
+      - nudon:daizu_seeds
