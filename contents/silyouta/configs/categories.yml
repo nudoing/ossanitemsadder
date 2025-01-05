@@ -20,3 +20,12 @@ categories:
       - silyouta:ikura
       - silyouta:nori
       - silyouta:sio
+
+  kaiga:
+    enabled: true
+    skip_if_already: false
+    icon: PAINTING
+    name: 絵画
+    items:
+      - silyouta:kusokora1
+      - silyouta:kusokora2

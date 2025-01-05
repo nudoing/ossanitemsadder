@@ -1,0 +1,36 @@
+info:
+  namespace: silyouta
+
+items:
+  kusokora1:
+    enabled: true
+    display_name: "牛乳を注ぎすぎたぬどん"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_kusokora1
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: -0.1
+  kusokora2:
+    enabled: true
+    display_name: "水を注ぐぬどん"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: painting_kusokora2
+    behaviours:
+      furniture:
+        gravity: false
+        fixed_rotation: true
+        hitbox:
+          length: 0.1
+          width: 2
+          height: 2
+          length_offset: -0.1
