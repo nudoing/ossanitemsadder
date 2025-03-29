@@ -2,7 +2,7 @@ info:
   namespace: maguyome
 
 items:
-  syouyu:
+  kinako:
     enabled: true
     display_name: "きなこ"
     resource:
